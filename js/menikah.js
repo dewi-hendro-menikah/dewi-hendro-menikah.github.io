@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         $target.classList.toggle("is-active");
       });
     });
-  }
+  };
 });
 
 // Smooth Anchor Scrolling
