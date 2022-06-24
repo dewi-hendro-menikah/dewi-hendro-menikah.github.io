@@ -18,6 +18,92 @@ html {
 
 .container-satu {
   margin: 50px auto;
+  max-width: 1100px;
+}
+
+.container-dua {
+  margin: 50px auto;
+  max-width: 700px;
+}
+
+.container-tiga {
+  margin: 50px auto;
+  max-width: 1100px;
+  text-align: center;
+  line-height: 2;
+}
+
+.container-empat {
+  margin: 50px auto;
+  max-width: 1100px;
+}
+
+.container-lima {
+  margin: 50px auto;
+  max-width: 1100px;
+  display: flex;
+}
+
+.card {
+  border: 3px solid #ECBB6C;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+  background-color: #262830;
+  display: flex;
+  box-shadow: 0px 28px 35px -5px rgb(0 0 0 / 50%);
+}
+
+.card.map {
+  border: 3px solid #ECBB6C;
+  border-radius: 10px;
+  box-shadow: 0px 28px 35px -5px rgb(0 0 0 / 50%);
+}
+
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card .title {
+  font-family: 'Arizonia', sans-serif;
+  font-size: 50px;
+  color: #ECBB6C;
+}
+
+.card .subtitle {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  font-weight: 18px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.card.besar {
+  transform: scale(1.12);
+}
+
+.container-empat span {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+}
+
+.container-empat li, h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+}
+
+.kotak-hitam {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #ECBB6C;
+  border-radius: 10px;
+  width: 100px;
 }
 
 .kolom {
@@ -26,7 +112,51 @@ html {
   margin-bottom: 20px;
 }
 
+.satu.acara {
+  color: #fff;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 22px;
+  margin: auto;
+}
+
+.dua.acara {
+  color: #ECBB6C;
+  font-family: 'Arizonia', sans-serif;
+  font-size: 40px;
+  margin: auto;
+}
+
+.kolom.satu.tanggal {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.kolom.dua.acara {
+  font-family: 'Arizonia', sans-serif;
+  font-size: 50px;
+
+}
+
 .kolom.dua {
+  text-align: center;
+  margin: auto;
+}
+
+.kolom.dua.tanggal {
+  border-right: 3px solid #ECBB6C;
+  border-left: 3px solid #ECBB6C;
+  color: #ECBB6C;
+  font-family: 'Arizonia', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+}
+
+.kolom.tiga.tanggal {
+  font-family: 'Abril Fatface';
+  font-size: 30px;
   text-align: center;
   margin: auto;
 }
@@ -35,7 +165,7 @@ html {
   color: #fff;
   font-family: 'Courgette', sans-serif;
   font-size: 30px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .dengan {
@@ -48,7 +178,7 @@ html {
   color: #ECBB6C;
   font-family: 'Playfair Display', sans-serif;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /* Responsive */
@@ -57,8 +187,14 @@ html {
     display: flex;
     justify-content: space-between;
   }
+  .container-dua {
+    display: flex;
+  }
   .kolom {
     width: 30%;
+  }
+  .dua.acara {
+    font-size: 50px;
   }
 }
 
@@ -99,8 +235,6 @@ html {
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Raleway', sans-serif;
 }
-
-
 
 .hero .title {
   font-family: 'Courgette', sans-serif;
@@ -586,25 +720,25 @@ body.preloader-site {
 }
 
 .btn-cta-cal {
-  background-color: #996E6D;
+  background-color: #ECBB6C;
   width:  300px;
   height: 65px;
-  color: white;
+  color: #000;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
-  border-radius: 10px;
+  border: 2px solid #ECBB6C;
+  border-radius: 100px;
   align-items: center;
   margin: 1rem;
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #ECBB6C;
   width:  210px;
   height: 65px;
-  color: white;
+  color: #000;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
-  border-radius: 10px;
+  border: 2px solid #ECBB6C;
+  border-radius: 100px;
   align-items: center;
   margin: 1rem;
 }
