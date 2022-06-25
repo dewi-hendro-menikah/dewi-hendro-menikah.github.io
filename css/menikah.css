@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script|Arizonia|Courgette|Abril+Fatface|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script|Arizonia|Courgette|Abril+Fatface|Playfair+Display|Roboto+Condensed");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -14,6 +14,12 @@ html {
   width: 100%;
   min-height: 100%;
   background-color: #272933;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
 }
 
 .container-satu {
@@ -41,7 +47,76 @@ html {
 .container-lima {
   margin: 50px auto;
   max-width: 1100px;
-  display: flex;
+}
+
+.container-enam {
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 100%;
+  background: linear-gradient(rgb(10, 10, 0.7), rgba(10, 10, 0, 0.8)), url("https://resepsi.id/wp-content/uploads/2021/09/BG-patern.png");
+  background-size: 5% auto;
+  text-align: center;
+}
+
+.container-enam h2 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  color: #fff;
+}
+
+.container-enam h3 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  font-style: italic;
+  color: #ECBB6C;
+}
+
+.container-enam h4 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  color: #ECBB6C;
+}
+
+.container-tujuh {
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+
+.container-tujuh h2 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 40px;
+  color: #ECBB6C;
+}
+
+.container-tujuh h3 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.container-delapan {
+  margin: 50px;
+  width: 1100px;
+  text-align: center;
+}
+
+.container-delapan h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  color: #ECBB6C;
+}
+
+.container-sembilan {
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+
+.container-sembilan h4 {
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
+  color: #ECBB6C;
 }
 
 .card {
@@ -92,7 +167,12 @@ html {
   font-size: 50px;
 }
 
-.container-empat li, h2 {
+.container-empat li {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+}
+
+.container-empat h2 {
   font-family: 'Playfair Display', sans-serif;
   font-size: 18px;
 }
@@ -188,6 +268,9 @@ html {
     justify-content: space-between;
   }
   .container-dua {
+    display: flex;
+  }
+  .container-lima {
     display: flex;
   }
   .kolom {
@@ -709,10 +792,10 @@ body.preloader-site {
 
 .btn-cta:hover {
   color:white;
-  background-color: #bf7877;
+  background-color: #ECBB6C;
   font-size: 1.2rem;
-  border-radius: 10px;
-  border: 2px solid #bf7877;
+  border-radius: 100px;
+  border: 2px solid #ECBB6C;
   width:  210px;
   height: 65px;
   align-items: center;
