@@ -79,7 +79,7 @@ audio {
 
 .container-tujuh {
   margin: 50px auto;
-  width: 1100px;
+  max-width: 1100px;
   text-align: center;
 }
 
@@ -96,8 +96,8 @@ audio {
 }
 
 .container-delapan {
-  margin: 50px;
-  width: 1100px;
+  margin: 50px auto;
+  max-width: 1100px;
   text-align: center;
 }
 
@@ -109,14 +109,116 @@ audio {
 
 .container-sembilan {
   margin: 50px auto;
-  width: 1100px;
+  max-width: 1100px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container-sepuluh {
+  margin: 50px auto;
+  max-width: 1100px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+}
+
+.container-sepuluh h3 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  color: #ECBB6C;
+}
+
+.container-sepuluh h1 {
+  font-family: 'Arizonia', sans-serif;
+  font-size: 50px;
+  color: #ECBB6C;
+}
+
+.thumbnail {
+  width: 50%;
+  padding: 40px;
+}
+
+.thumbnail img {
+  width: 100%;
 }
 
 .container-sembilan h4 {
   font-family: 'Roboto Condensed';
   font-size: 18px;
   color: #ECBB6C;
+}
+
+.container-sebelas {
+  max-width: 500px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.container-duabelas {
+  max-width: 1100px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Playfair Display ';
+  font-size: 20px;
+  color: #ECBB6C;
+}
+
+.container-tigabelas {
+  margin: 50px auto;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.container-tigabelas h2 {
+  font-family: 'Arizonia', sans-serif;
+  font-size: 40px;
+  color: #ECBB6C;
+}
+
+.container-tigabelas h3 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container-tigabelas h1 {
+  font-family: 'Arizonia', sans-serif;
+  font-size: 45px;
+  color: #ECBB6C;
+}
+
+.container-tigabelas h4 {
+  font-family: 'Arizonia', sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+.container-tigabelas h5 {
+  font-family: 'Courgette', sans-serif;
+  font-size: 30px;
+  color: #ECBB6C;
+}
+
+.container-tigabelas h6 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  color: #ECBB6C;
+}
+
+.container-tigabelas.satu {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.container-tigabelas.dua {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -273,11 +375,19 @@ audio {
   .container-lima {
     display: flex;
   }
+  .container-tigabelas.f {
+    display: flex;
+    justify-content: space-between;
+  }
   .kolom {
     width: 30%;
   }
   .dua.acara {
     font-size: 50px;
+  }
+  .thumbnail {
+    width: 10%;
+    padding: 0;
   }
 }
 
@@ -653,12 +763,12 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
-  color: whitesmoke;    
+  background: #ECBB6C;
+  color: #272933;    
 }
 
 .footer p {
-  color: white;
+  color: #272933;
   font-weight: 500;
   font-size: 10pt;
   display: inline-block;
@@ -774,10 +884,10 @@ body.preloader-site {
 
 
 .btn-whatsapp {
-  background-color: #6cc751;
+  background-color: #272933;
   width:  210px;
   height: 65px;
-  color: white;
+  color: #ECBB6C;
   font-size: 1.2rem;
   border-radius: 10px;  
   border-left: 1px solid #6cc751;
